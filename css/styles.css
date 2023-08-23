@@ -1,109 +1,126 @@
-body {
+body {    
     background-color: #a9a9a9;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: black;
+    height: 1200vh;
     width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:0px;
-    margin:0px;
 }
 
-header {
-    height: %;
-    width: 100%;
+.bigconainter {
+    width:100%;
+    height: max-content;
+}
+
+.header {
+    background-color:white;
     display: flex;
-    background-color: white;
+    height: 10vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .MIHEALTH {
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
+    font-family: arial, sans-serif;
+    font-weight:bold
 }
 
+.MIHEALTH span:nth-child(1){
+    color:red
+}
+.MIHEALTH span:nth-child(2){
+    color:limegreen
+}
 .navbar_container{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
+/* 
 a{
     margin: 20px;
-}
+} */
 
 .maincontainer {
-    background-color: #a9a9a9;
-    width: 150vh;
-    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top:10px;
+    justify-content:center;
+    margin-top:0px;
+    flex-direction: row;
 }
 
 
 .container1 {
     height: 80%;
-    width: 30%;
+    width: 20%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+    align-items: end;
+    justify-content: end;
     background-image: url(../images/breakfast.jpg);
+    flex-direction: column;
 }
 
 .container1:nth-child(2){
     height: 80%;
-    width: 30%;
+    width: 20%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+    align-items: end;
+    justify-content: end;
+    margin-left: 10%;
     background-image: url(../images/dinner.jpg);
+    flex-direction: column;
 }
 
 .container1:nth-child(3){
     height: 80%;
-    width: 30%;
+    width: 20%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
+    align-items: end;
+    justify-content: end;
     background-image: url(../images/lunch.jpg);
-}
+    flex-direction: column;
+} 
 
 .container1 h1 {
     font-size: 40px;
+    font-family: Copperplat, fantasy;
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+.container1 h2 {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: limegreen;
 }
 
 
 
 .leftbody {
     height: 100%;
-    width: 30%;
+    width: 15%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     margin-left: 20px;
     flex-direction: column;
 }
 
 .leftbody h1 {
-    font-size:40px;
+    font-size:larger;
+    font-family: copperplate, fantasy;
 }
 .leftbody p {
-    font-size: 20px;
+    font-size:medium;
     font-style: italic;
+}
+
+.leftbody {
+    font-size:large;
+    font-family: Copperplate, Fantasy;
 }
 
 

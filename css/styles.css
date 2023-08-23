@@ -1,40 +1,70 @@
-.head {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 20px;
+body {
+    background-color: White;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
-/* The navbar container */
-.nav {
-    overflow: hidden;
-    background-color: #333;
-}
-/* nvbar links */
-.nav a {
-    float: left;
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-/* Links - change color on hover */
-.nav a:hover {
-background-color: #ddd;
-color: black
+
+.maincontainer {
+    background-color: aqua;
+    width: 80%;
+    height: 8
+    
+    0%;
+    display: flex;
 }
 
 
-.row {
-    margin: 7%;
+.header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.MIHEALTH {
+    font-size: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 30%;
 }
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+
+.navbar_container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: grey;
 }
+
+
+a{
+    margin: 20px;
+}
+
+.container1:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}
+
+
+
+
+.container4 {
+    margin: 0.5rem;
+    top: 100px;
+    bottom: 45px;
+    text-justify: left;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+
